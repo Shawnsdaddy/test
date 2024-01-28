@@ -19,5 +19,5 @@ def level_order_bottom(root: TreeNode) -> List[List[int]]:
             if cur.right:
                 stack.insert(0, cur.right)
         level_stack = stack
-        res.inser(0,value)
+        res.insert(0,value)
     return res
